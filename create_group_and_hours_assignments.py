@@ -11,7 +11,6 @@ value = int(input(f"Insert limit for groups: "))
 
 for i in range(group_number):
     key = input("Insert name of group (ex. A, B, C): ")
-    # value = int(input(f"Insert limit for group '{key}': "))
     for j in range(1, terms_number + 1):
         limits[key + str(j)] = value / terms_number
         assignments_groups[key + '*'] = []
@@ -22,13 +21,9 @@ for j in range(1, terms_number + 1):
     assignments_terms['*' + str(j)] = []
 terms_list = list(assignments_terms.keys())
 assignments = {option: [] for option in groups_list}
-# assignments_count = {option: 0 for option in groups_sum_list}
 assignments_count = {option: 0 for option in groups_list}
 assignments_terms_count = {option: 0 for option in terms_list}
 file_path = 'preferences_D2.csv'
-print(limits)
-print(assignments)
-print(assignments_terms)
 
 # import .csv file
 def import_csv_to_array(file_path):
@@ -57,13 +52,16 @@ for row in shuffled_array:
         sorted_list = list(sorted_count.keys())
         current_min = len(assignments[sorted_list[0]])
         current_group = sorted_list[0]
-        # for group in sorted_list:
-        #     if (len(assignments[group]) < current_min and row[0] not in assignments[group] and len(assignments[group]) < limits[group]):
-        #         current_min = len(assignments[group])
-        #         current_group = group
-        # if row[0] not in assignments[current_group]:
-        #     assignments[current_group].append(row[0])   
-        #     assignments_count[current_group] += 1
+        for group in sorted_list:
+            for j in range(1, terms_number + 1):
+                if (len(assignments[group]) < current_min and row[0] not in assignments_terms['*' + str(j)] and row[0] not in assignments_groups[group[0] + '*'] and len(assignments[group]) < limits[group]):
+                    current_min = len(assignments[group])
+                    current_group = group
+                if row[0] not in assignments_terms['*' + str(j)] and row[0] not in assignments_groups[current_group[0] + '*'] and len(assignments[group]) < limits[group]:
+                    assignments[current_group].append(row[0])   
+                    assignments_terms['*' + str(j)].append(row[0])  
+                    assignments_groups[current_group[0] + '*'].append(row[0])  
+                    assignments_count[current_group] += 1
     elif len(row) > 1:
         i = 1
         while (i < len(row)):
@@ -73,12 +71,30 @@ for row in shuffled_array:
                     if len(assignments[pref]) < limits[pref] and row[0] not in assignments_terms['*' + str(j)] and row[0] not in assignments_groups[row[i] + '*']:
                         assignments[pref].append(row[0])
                         assignments_terms['*' + str(j)].append(row[0])   
-                        assignments_count[pref] += 1
-                        # assignments_terms_count['*' + str(j)] += 1
-                        break         
+                        assignments_groups[row[i][0] + '*'].append(row[0])   
+                        assignments_count[pref] += 1  
             i += 1
 
-print(assignments)
-print(assignments_count)
-print(assignments_terms)
-# print(assignments_terms_count)
+# set the same lenght to each list
+max_length = max(len(people) for people in assignments.values())
+for key in assignments.keys():
+    while len(assignments[key]) < max_length:
+        assignments[key].append('')
+
+# find people with group count different then 2
+group_message = ''
+for row in data_array:
+    i = 0
+    current_person_group_list = ''
+    for group in groups_list:
+        if row[0] in assignments[group]:
+            i += 1
+            current_person_group_list = current_person_group_list + group
+    if i != 2:
+        group_message = group_message + row[0] + ':' + current_person_group_list + '; '
+
+print('List of people with group count different then 2: ' + group_message)
+
+# Export assignments to file
+assignments_df = pd.DataFrame(assignments)
+assignments_df.to_csv('assignments_hours_D2_v1.csv', index=False)
