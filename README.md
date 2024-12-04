@@ -6,4 +6,5 @@ Attached to the message is a file with the list of participants and their prefer
 “C Maria;B;C;A;D”
 means that participant “C Maria” is most likely to go to workshop B, followed by C, then A, while she doesn't much feel like going to workshop D.
 
-P2: 
+P2: In addition, classes in each of the A, B, C, D groups will be held on two different dates. There are two dates for classes on any given day.
+If a person attends class A on the first date, he will only be able to attend classes in groups B, C, D on the second date.
