@@ -7,7 +7,7 @@ from collections import defaultdict
 def import_csv_to_array(file_path):
     table = []
     # with open(file_path, newline='', encoding='utf-8') as csvfile:
-    with open(file_path, newline='', encoding='cp1250') as csvfile:
+    with open(file_path, newline='', encoding='UTF-8') as csvfile:
         reader = csv.reader(csvfile, delimiter=';', skipinitialspace=True)
         for row in reader:
             cleaned_row = [cell.strip() for cell in row if cell.strip()]
@@ -43,7 +43,7 @@ def shuffle_list(data):
     return shuffled_data
 
 file_path = 'preferences_26_D1.csv'
-output_file_path = 'assignments_hours_26_T1_D1.csv'
+output_file_path = 'assignments_hours_26_T1_D1_v0.csv'
 
 m = 0
 group_message = '.'
@@ -159,7 +159,7 @@ while group_message != '':
         if i != 2:
             group_message = group_message + row[0] + ':' + current_person_group_list + '; '
 
-    print('Solution #' + str(m + 1) + ': List of people with group count different then: ' + group_message)
+    print('Solution #' + str(m + 1) + ': List of people with group count different then expected: ' + group_message)
     m += 1
     if m == 9999:
         break
