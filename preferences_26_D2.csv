@@ -1,127 +1,127 @@
-A Jakub;B;A;C;D
-A Natalia;B;A;C;D
-B Agata;D;C;B;A
-B Anna ;;;;
-B Bogna ;B;C;D;A
-B Ewelina ;;;;
-B Maciej;B;D;C;A
-B Maria;B;D;C;A
-B Weronika;D;C;A;B
-C Agnieszka;C;B;A;D
-C Emilia;;;;
-C Maciej;C;A;D;B
-C Marcela;D;B;C;A
-C Maria;A;B;C;D
-C Monika;C;D;B;A
-C Roksana;A;B;D;C
-Cie Anna;;;;
-Cis Anna;B;C;A;D
-D Iwona;B;D;C;A
-D Magdalena;B;D;A;C
-D Ola;A;C;;B
-E Anna;C;D;B;A
-F Liv;C;A;B;D
-G Adam;B;D;A;C
-G Ania;C;B;D;A
-G Barbara ;B;D;A;C
-G Dominik;A;B;C;D
-G Dominika ;D;;;
-G Malwina;C;B;A;D
-G Ola;D;C;B;A
-G Paulina ;C;A;D;B
-G Sylwia;C;B;D;A
-G Zuzanna;D;C;B;A
-H Dorota ;;;;
-I Paulina;B;C;A;D
-J Joanna;D;C;B;A
-J Karolina;C;B;D;A
-J Monika;;;;
-J Ola;C;A;D;B
-J Piotr;;;;
-K Agnieszka ;D;B;C;A
-K Dorota ;C;D;B;A
-K Edyta;B;A;C;D
-K Elżbieta;;;;
-K Grażyna;C;D;A;B
-K Kamila ;B;C;D;A
-K Klaudia;B;A;C;D
-K Maciej;D;A;C;B
-K Magdalena;B;A;C;D
-K Małgorzata;B;C;A;D
-K Marcelina;A;C;B;D
-K Mohamed;D;C;A;B
-K Patryk;C;A;B;D
-K Paulina;C;B;D;A
-K Weronika;C;B;D;A
-Ka Natalia;A;B;D;C
-Kap Katarzyna;C;A;D;B
-Kar Katarzyna;B;C;A;D
-Ko Natalia;A;C;D;B
-Kr Natalia;C;D;B;A
-Kw Katarzyna;D;C;A;B
-L Agnieszka;D;A;B;C
-L Konrad;A;D;B;C
-L Magdalena;C;A;D;B
-L Marta;B;C;D;A
-L Margo;C;D;A;B
-L Zdzisław;D;B;A;C
-M Agata;C;A;D;B
-M Agnieszka ;A;D;C;B
-M Anita;B;C;D;A
-M Anna;B;C;A;D
-M Justyna;B;D;C;A
-M Karolina;D;A;C;B
-M Krystyna ;A;C;D;B
-M Michalina;C;B;A;D
-N Kamil;C;A;D;B
-N Łukasz ;B;C;D;A
-N Maria ;C;A;B;D
-O Aleksandra;D;A;C;B
-O Aneta;D;C;B;A
-O Marta;D;A;C;B
-O Michał;B;A;D;C
-P Agnieszka;C;D;A;B
-P Ania;C;A;B;D
-P Diana;B;C;A;D
-P Kamila;B;D;C;A
-P Maria ;C;A;B;D
-P Rafał;D;A;C;B
-R Andrzej;D;A;B;C
-R Beata;D;A;C;B
-R Marianna;A;B;D;C
-R Sasza;C;D;B;A
-Ra Kasia;D;A;C;B
-Ro Katarzyna ;B;D;A;C
-S Ada;;;;
-S Adrian;;;;
-S Aleksandra;D;A;B;C
-S Alicja;C;B;A;D
-S Kasia;B;D;C;A
-S Klaudia;;;;
-S Łukasz ;B;D;A;C
-S Maria;B;A;D;C
-S Natalia;D;C;B;A
-S Piotr;A;B;C;D
-Szadok Marta;D;A;B;C
-Szadow Marta;;;;
-Szc Mariusz;B;C;A;D
-Szw Mariusz ;;;;
-T Aleksandra;C;B;;
-T Ewa;B;C;D;A
-T Gniewko;;;;
-T Mikołaj;C;D;B;A
-U Kasia;A;C;D;B
-V Dari;A;D;B;C
-W Arkadiusz;A;D;B;C
-W Dominika;A;D;B;C
-W Konstanty;B;C;D;A
-W Mateusz;A;D;C;B
-Wi Katarzyna;B;D;A;C
-Wo Katarzyna;B;D;C;A
-Z Anna;B;D;C;A
-Z Edyta;C;D;A;B
-Z Maria;A;B;C;D
-Z Marta;A;D;C;B
-Z Patrycja;B;A;D;C
-Zi Aga;B;C;A;D
-Zł Agnieszka;B;C;A;D
+A Jakub;1;B;A;C;D
+A Natalia;1;B;A;C;D
+B Agata;1;D;C;B;A
+B Anna ;0;;;;
+B Bogna ;1;B;C;D;A
+B Ewelina ;0;;;;
+B Maciej;1;B;D;C;A
+B Maria;1;B;D;C;A
+B Weronika;1;D;C;A;B
+C Agnieszka;1;C;B;A;D
+C Emilia;0;;;;
+C Maciej;1;C;A;D;B
+C Marcela;1;D;B;C;A
+C Maria;1;A;B;C;D
+C Monika;1;C;D;B;A
+C Roksana;1;A;B;D;C
+Cie Anna;0;;;;
+Cis Anna;1;B;C;A;D
+D Iwona;1;B;D;C;A
+D Magdalena;1;B;D;A;C
+D Ola;1;A;C;;B
+E Anna;1;C;D;B;A
+F Liv;1;C;A;B;D
+G Adam;1;B;D;A;C
+G Ania;1;C;B;D;A
+G Barbara ;1;B;D;A;C
+G Dominik;1;A;B;C;D
+G Dominika ;1;D;;;
+G Malwina;1;C;B;A;D
+G Ola;1;D;C;B;A
+G Paulina ;1;C;A;D;B
+G Sylwia;1;C;B;D;A
+G Zuzanna;1;D;C;B;A
+H Dorota ;0;;;;
+I Paulina;1;B;C;A;D
+J Joanna;1;D;C;B;A
+J Karolina;1;C;B;D;A
+J Monika;0;;;;
+J Ola;1;C;A;D;B
+J Piotr;0;;;;
+K Agnieszka ;1;D;B;C;A
+K Dorota ;1;C;D;B;A
+K Edyta;1;B;A;C;D
+K Elżbieta;0;;;;
+K Grażyna;1;C;D;A;B
+K Kamila ;1;B;C;D;A
+K Klaudia;1;B;A;C;D
+K Maciej;1;D;A;C;B
+K Magdalena;1;B;A;C;D
+K Małgorzata;1;B;C;A;D
+K Marcelina;1;A;C;B;D
+K Mohamed;1;D;C;A;B
+K Patryk;1;C;A;B;D
+K Paulina;1;C;B;D;A
+K Weronika;1;C;B;D;A
+Ka Natalia;1;A;B;D;C
+Kap Katarzyna;1;C;A;D;B
+Kar Katarzyna;1;B;C;A;D
+Ko Natalia;1;A;C;D;B
+Kr Natalia;1;C;D;B;A
+Kw Katarzyna;1;D;C;A;B
+L Agnieszka;1;D;A;B;C
+L Konrad;1;A;D;B;C
+L Magdalena;1;C;A;D;B
+L Marta;1;B;C;D;A
+L Margo;1;C;D;A;B
+L Zdzisław;1;D;B;A;C
+M Agata;1;C;A;D;B
+M Agnieszka ;1;A;D;C;B
+M Anita;1;B;C;D;A
+M Anna;1;B;C;A;D
+M Justyna;1;B;D;C;A
+M Karolina;1;D;A;C;B
+M Krystyna ;1;A;C;D;B
+M Michalina;1;C;B;A;D
+N Kamil;1;C;A;D;B
+N Łukasz ;1;B;C;D;A
+N Maria ;1;C;A;B;D
+O Aleksandra;1;D;A;C;B
+O Aneta;1;D;C;B;A
+O Marta;1;D;A;C;B
+O Michał;1;B;A;D;C
+P Agnieszka;1;C;D;A;B
+P Ania;1;C;A;B;D
+P Diana;1;B;C;A;D
+P Kamila;1;B;D;C;A
+P Maria ;1;C;A;B;D
+P Rafał;1;D;A;C;B
+R Andrzej;1;D;A;B;C
+R Beata;1;D;A;C;B
+R Marianna;1;A;B;D;C
+R Sasza;1;C;D;B;A
+Ra Kasia;1;D;A;C;B
+Ro Katarzyna ;1;B;D;A;C
+S Ada;0;;;;
+S Adrian;0;;;;
+S Aleksandra;1;D;A;B;C
+S Alicja;1;C;B;A;D
+S Kasia;1;B;D;C;A
+S Klaudia;0;;;;
+S Łukasz ;1;B;D;A;C
+S Maria;1;B;A;D;C
+S Natalia;1;D;C;B;A
+S Piotr;1;A;B;C;D
+Szadok Marta;1;D;A;B;C
+Szadow Marta;0;;;;
+Szc Mariusz;1;B;C;A;D
+Szw Mariusz ;0;;;;
+T Aleksandra;1;C;B;;
+T Ewa;1;B;C;D;A
+T Gniewko;0;;;;
+T Mikołaj;1;C;D;B;A
+U Kasia;1;A;C;D;B
+V Dari;1;A;D;B;C
+W Arkadiusz;1;A;D;B;C
+W Dominika;1;A;D;B;C
+W Konstanty;1;B;C;D;A
+W Mateusz;1;A;D;C;B
+Wi Katarzyna;1;B;D;A;C
+Wo Katarzyna;1;B;D;C;A
+Z Anna;1;B;D;C;A
+Z Edyta;1;C;D;A;B
+Z Maria;1;A;B;C;D
+Z Marta;1;A;D;C;B
+Z Patrycja;1;B;A;D;C
+Zi Aga;1;B;C;A;D
+Zł Agnieszka;1;B;C;A;D
