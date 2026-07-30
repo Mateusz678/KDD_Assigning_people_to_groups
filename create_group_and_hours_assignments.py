@@ -42,8 +42,8 @@ def shuffle_list(data):
 
     return shuffled_data
 
-file_path = 'preferences_25_D2_v2.csv'
-output_file_path = 'assignments_hours_25_T2_D2_v3.csv'
+file_path = 'preferences_26_D1.csv'
+output_file_path = 'assignments_hours_26_T1_D1.csv'
 
 m = 0
 group_message = '.'
@@ -61,7 +61,7 @@ while group_message != '':
     terms_number = 2 
     value = 66
     calculated_value_default = value / terms_number
-    calculated_value_exception = 27
+    calculated_value_exception = 30
 
     for i in range(group_number):
         # key = input("Insert name of group (ex. A, B, C): ")
